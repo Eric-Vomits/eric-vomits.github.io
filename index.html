@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="class">
+        
+        <div class="text">
+            <h1>Guess the number</h1>
+            <p>Try to guess a random number between 1 and 10.</p>
+        </div>   
+
+        <div class="form">
+            <p><u>Guess the number</u></p>
+            <input type="text" onfocus="this.value=''" id="guess">
+            <button onclick="play()">Try</button>
+        </div>
+
+        <br>
+
+        <p id="msg"></p>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
